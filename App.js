@@ -16,7 +16,7 @@ import HomeScreen from './HomeScreen';
 import DetailsScreen from './DetailsScreen';
 import TripsScreen from './TripsScreen';
 
-const AppNavigator = createBottomTabNavigator( //createStackNavigator({
+const AppNavigator = createBottomTabNavigator(
 {
   Home: { screen: HomeScreen },
   Trips: { screen: TripsScreen },
